@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    NSTimer *timer;
+    UILabel *timeLabel;
+    NSDate *beginDate;
+}
 
 @end
